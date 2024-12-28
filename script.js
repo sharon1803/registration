@@ -7,6 +7,8 @@ $(document).ready(function () {
         name: $("#name").val(),
         email: $("#email").val(),
         password: $("#password").val(),
+
+          include 'process.php';
       };
   
       // Display the output
